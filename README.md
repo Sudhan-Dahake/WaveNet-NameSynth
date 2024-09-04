@@ -40,7 +40,7 @@ To get started with the project, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/WaveNet-Name-Generator.git
+   git clone https://github.com/Sudhan-Dahake/WaveNet-NameSynth.git
    cd WaveNet-NameSynth
    ```
 
