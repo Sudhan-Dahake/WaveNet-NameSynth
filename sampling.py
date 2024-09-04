@@ -15,8 +15,6 @@ model = Sequential(
         Embeddings(Vocab.vocab_size, n_embed),
         FlattenConsecutive(2), Linear(2 * n_embed, n_hidden),          BatchNorm1d(n_hidden), Tanh(),
         FlattenConsecutive(2), Linear(2 * n_hidden, n_hidden),         BatchNorm1d(n_hidden), Tanh(),
-        FlattenConsecutive(2), Linear(2 * n_hidden, n_hidden),         BatchNorm1d(n_hidden), Tanh(),
-        FlattenConsecutive(2), Linear(2 * n_hidden, n_hidden),         BatchNorm1d(n_hidden), Tanh(),
         FlattenConsecutive(2), Linear(2 * n_hidden, Vocab.vocab_size),
     ]
 )
