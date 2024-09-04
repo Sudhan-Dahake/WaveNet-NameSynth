@@ -32,7 +32,7 @@ The architecture of the model is composed of several key components:
 4. **BatchNorm1d**: Batch normalization layers to stabilize and accelerate training.
 5. **Tanh Activation**: Non-linear activation function to introduce non-linearity into the model.
 
-The model consists of 500k parameters and is structured as a sequence of linear transformations and non-linear activations, ensuring a rich and expressive representation of the input data.
+The model consists of **500k** parameters and is structured as a sequence of linear transformations and non-linear activations, ensuring a rich and expressive representation of the input data.
 
 ## Installation
 
